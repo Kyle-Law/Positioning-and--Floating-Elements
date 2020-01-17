@@ -1,0 +1,79 @@
+/* Default Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+/* Color */
+
+:root{
+    --blue:#567B95;
+    --blue-dark:#336891;
+    --white:#fff;
+    --black: #000;
+    --grey: #333333;
+    --grey-light:#666666;
+    --grey-light-2:#F7F7F7;
+    --grey-light-3:#E2E2E2;
+}
+
+/* Header Section */
+header {
+    padding: 3px;
+    border-bottom: 1px solid var(--grey-light-3);
+}
+
+.container {
+    display: grid; 
+    grid-auto-flow: column;
+    align-items: center;
+    grid-template-columns: 30px 30px 200px 1fr 120px 80px;
+    /* grid-template-rows: 30px; */
+    padding: 0 20px;
+    column-gap: 10px;
+    justify-items: center;
+}
+
+.list {
+    list-style: none;
+    font-family: sans-serif;
+}
+
+.list:hover {
+    cursor: pointer;
+}
+
+.font {
+    font-size: 15px;
+    font-weight: 800;
+    transition: 0.5s;
+}
+
+.font:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px;
+    transition: 0.5s;
+    border-radius:4px;
+    place-items: center;
+    display: grid;
+    font-weight: 800;
+    font-size: 10px;
+}
+
+.btn:hover {
+    background: var(--blue-dark);
+    cursor: pointer;
+}
+
+/* Main section */
