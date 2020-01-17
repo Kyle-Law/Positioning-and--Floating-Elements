@@ -77,3 +77,38 @@ header {
 }
 
 /* Main section */
+.main{
+    text-align: center;
+    margin-top: 40px;
+    font-family: Geogia;
+    font-size: 30px;
+    margin: 40px 40px;
+}
+.main #main-img{
+    width: 70%;
+    margin-top: 30px;
+}
+.main #main-paragraph{
+    font-size: 25px;
+    margin-left: 14%;
+    margin-right:30% ;
+}
+.icons{
+    display: flex;
+    margin-right: 30%;
+    margin-left: 70%;
+}
+.main #title{
+    margin-right: 57% ;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.main .icons #date{
+    flex-direction: left;
+}
+.main .icons .icon{
+    margin: 10px;
+}
+
+
+
