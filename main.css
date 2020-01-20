@@ -376,6 +376,8 @@ h6 {
 .foot-title {
     color: var(--grey);
     font-weight: 600;
+    margin-top: 20px;
+    
 }
 
 /* Main Footer Section */
@@ -393,3 +395,4 @@ footer {
     cursor: pointer;
     text-decoration: underline;
 }
+
