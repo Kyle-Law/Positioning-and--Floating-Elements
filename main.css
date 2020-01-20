@@ -98,9 +98,10 @@ header {
     text-align: left;
 }
 
-.main-para__1 {
+.main-para__container {
     margin:0 auto;
     width: 50%;
+    text-align: left;
 }
 
 .icons{
@@ -153,3 +154,61 @@ header {
     border: 1px solid var(--grey-light-3);
     cursor: pointer;
 }
+
+.main-para__1 {
+    color: var(--grey);
+    grid-column: span 2;
+    font-size: 1.5rem;
+}
+
+// Inflation Section
+// .main-para__container_2 {
+//     margin: 0 auto;
+//     width: 75%;
+//     text-align: left;
+// }
+
+#main-para__container_2 {
+    margin: 0 auto;
+    width: 75%;
+    text-align: left;
+}
+
+.inf-title {
+    font-size: 1.5rem;
+}
+
+.inf-subtitle {
+    font-size: 1rem;
+    color: var(--grey-light);
+}
+
+.inf-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 10px;
+}
+
+.inf-item {
+    display: grid;
+    grid-template-rows: 142px max-content;
+}
+
+.inf-paragraph {
+    font-size: 1rem;
+}
+
+.short-line {
+    margin-top: 40px;
+    width: 70px;
+    color: var(--black);
+}
+
+.inf-author {
+    font-size: 1rem;
+    color: var(--grey);
+}
+
+// main-paragraph-2 here
+
