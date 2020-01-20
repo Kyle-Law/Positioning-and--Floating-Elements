@@ -76,6 +76,38 @@ header {
     cursor: pointer;
 }
 
+/* Editor's Pick Section */
+.editor-picks {
+    margin-right: 50px;
+    height: 400px;
+    width: 200px;
+    float: right;
+    position: relative;
+    top: 2000px;
+}
+
+h5 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.pick {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    margin: 20px 0; 
+    column-gap: 10px;
+}
+
+.pick > img {
+    width: 100%;
+    height: 100%;
+}
+
+.pick > p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 /* Main section */
 .main{
     text-align: center;
@@ -237,4 +269,69 @@ header {
     font-size: 20px;
 }
 
+iframe {
+    width: 100%;
+    height: 430px; 
+}
 
+.img-telescope {
+    width: 100%;
+}
+
+/* Bottom Section 1 */
+
+.section-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    column-gap: 20px;
+}
+
+.section-1__left__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+
+.article-left {
+    display: grid;
+    grid-template-rows: 200px max-content 16px;
+    row-gap: 6px;
+}
+
+.foot-image {
+    width: 100%;
+    height: 100%;
+}
+
+h6 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.article-title-left {
+    font-weight: 600;
+}
+
+.article-title-left:hover {
+    cursor: pointer;
+    text-decoration: underline;
+} 
+
+.article-title-left:hover {
+    color: var(--grey-light);
+    cursor: pointer;
+}
+
+.article-date {
+    font-size: 0.8rem;
+    color: var(--grey-light);
+}
+
+.font-large {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    border-top: 1px solid var(--grey-light-3);
+}
