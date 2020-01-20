@@ -84,31 +84,72 @@ header {
     font-size: 30px;
     margin: 40px 40px;
 }
+
 .main #main-img{
     width: 70%;
     margin-top: 30px;
 }
+
 .main #main-paragraph{
-    font-size: 25px;
+    font-size: 15px;
+    color: var(--grey-light);
     margin-left: 14%;
-    margin-right:30% ;
+    margin-right:30%;
+    text-align: left;
 }
+
+.main-para__1 {
+    margin:0 auto;
+    width: 50%;
+}
+
 .icons{
-    display: flex;
-    margin-right: 30%;
-    margin-left: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: left;
 }
+
+.icons__right {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(6,35px);
+    column-gap: 10px;
+    justify-content: right;
+}
+
 .main #title{
-    margin-right: 57% ;
+    // margin-right: 57% ;
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 20px;
+    color: var(--grey);
+    text-align: left;
 }
+
+.title__author {
+    text-decoration: underline;
+}
+.title__author:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .main .icons #date{
-    flex-direction: left;
+    font-size: 15px;
+
 }
 .main .icons .icon{
     margin: 10px;
 }
 
+.icon__round {
+    border-radius: 100%;
+    background-color: var(--grey-light-3);
+    width: 100%;
+}
 
-
+.icon__round:hover {
+    background-color: var(--white);
+    border: 1px solid var(--grey-light-3);
+    cursor: pointer;
+}
