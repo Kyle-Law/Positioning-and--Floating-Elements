@@ -309,6 +309,7 @@ iframe {
 h6 {
     font-size: 1.2rem;
     margin: 10px 0;
+    border-top: 1px solid var(--black);
 }
 
 .article-title-left {
@@ -335,3 +336,4 @@ h6 {
     padding: 10px 0;
     border-top: 1px solid var(--grey-light-3);
 }
+
