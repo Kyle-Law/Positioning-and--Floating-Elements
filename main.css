@@ -265,8 +265,8 @@ h1 {
 }
 
 .description-link {
-    color: var(--grey-light);
-    padding-top: 40px;
+  color: var(--grey-light);
+  padding-top: 40px;
 }
 
 .description-link:hover {
