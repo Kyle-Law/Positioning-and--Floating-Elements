@@ -209,6 +209,32 @@ header {
     font-size: 1rem;
     color: var(--grey);
 }
+#iframe-title{
+    font-size: 25px;
+    color: var(--grey-light);
+}
+#iframe-auth{
+    font-size: 17px;
+    color: var(--grey-light);
+}
+#img-title{
+    font-size: 25px;
+    color: var(--grey-light);
+}
+#description-paragraph{
+    color: var(--grey-light);
+    font-size: 20px;
+}
+.ddescription-link:hover{
+    text-decoration: none;
 
-// main-paragraph-2 here
+}
+.description-link{
+    color: var(--grey-light);
+    padding-top: 40px;
+}
+.btn2{
+    font-size: 20px;
+}
+
 
