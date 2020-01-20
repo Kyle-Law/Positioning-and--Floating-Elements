@@ -32,6 +32,7 @@ header {
     background-color: var(--white);
     padding: 3px;
     border-bottom: 1px solid var(--grey-light-3);
+    z-index: 100;
 }
 
 .container {
@@ -115,10 +116,14 @@ h5 {
 
 /* Main section */
 .main{
-    text-align: center;
+    text-align: end;
     font-family: Geogia;
     font-size: 30px;
     padding-top: 60px;
+}
+
+h1 {
+    text-align: center;
 }
 
 .main #main-img{
@@ -389,6 +394,10 @@ footer {
     grid-template-columns: repeat(13,1fr);
     font-size: 0.7rem;
     color: var(--grey-light);
+}
+
+.foot {
+    margin: 5px 0;
 }
 
 .foot:hover {
