@@ -39,7 +39,6 @@ header {
     grid-auto-flow: column;
     align-items: center;
     grid-template-columns: 30px 30px 200px 1fr 120px 80px;
-    /* grid-template-rows: 30px; */
     padding: 0 20px;
     column-gap: 10px;
     justify-items: center;
@@ -160,7 +159,6 @@ h1 {
 }
 
 .main #title{
-    // margin-right: 57% ;
     margin-top: 30px;
     font-size: 20px;
     color: var(--grey);
@@ -201,12 +199,7 @@ h1 {
     font-size: 1.5rem;
 }
 
-// Inflation Section
-// .main-para__container_2 {
-//     margin: 0 auto;
-//     width: 75%;
-//     text-align: left;
-// }
+/* Inflation Section */
 
 #main-para__container_2 {
     margin: 0 auto;
