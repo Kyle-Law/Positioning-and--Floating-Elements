@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Positioning-and--Floating-Elements/bad01eda6728179a48b8d092380dcdc037713bf1/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Kyle-Law/Positioning-and--Floating-Elements/e999f9f56bf49463f117b99be737c9579107bb24/index.html)
 
 ## Authors
 
