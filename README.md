@@ -12,11 +12,11 @@
 
 ## Authors
 
-👤 **Author1**
+👤 **Kyle Law**
 
 - Github: [@Kyle-Law](https://github.com/Kyle-Law)
 
-👤 **Author2**
+👤 **Mbabali Iryn**
 
 - Github: [@mbaballiryn](https://github.com/mbabaliiryn)
 
