@@ -403,6 +403,7 @@ h6 {
   grid-template-columns: repeat(13, 1fr);
   font-size: 0.7rem;
   color: var(--grey-light);
+  margin-bottom: 30px;
 }
 
 .foot {
